@@ -1,0 +1,209 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-text {
+    padding-left: 10px;
+}
+
+.custom-nav {
+    padding-left: 2rem;
+}
+
+.custom-nav .custom-nav-item a {
+    color: white;
+}
+
+.custom-nav-item {
+    padding-left: 8px;
+}
+
+.custom-nav-item:hover {
+    background: #dc3545;
+    border-radius: 10px;
+}
+
+.vid-div {
+    margin: 0;
+    padding: 0;
+}
+
+.vid-parent {
+    position: relative;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.vid-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 101%;
+    background: #225470;
+    z-index: 1;
+    opacity: .8;
+}
+
+.vid-contant {
+
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    z-index: 2;
+    text-align: center;
+}
+
+.my-contant {
+    color: black;
+    font-weight: bold;
+}
+
+.bottom-banner {
+    color: white;
+    padding: 10px;
+
+}
+
+.bottom-banner .feature {
+    padding-top: 15px;
+}
+
+.card-img-top {
+    width: 300px;
+    height: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: 30%;
+
+}
+
+#Contact {
+    margin-top: 20px;
+}
+
+.form-division {
+    margin-top: 25px;
+}
+
+.stripe {
+    background: linear-gradient(240deg, #ed213a, #93291e);
+    transform: rotate(10deg);
+    padding: 3rem;
+    height: 13rem;
+    margin-top: 4rem;
+
+}
+
+.reviews .slide p {
+    padding: 1.5rem;
+    background: #eee;
+    position: relative;
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    color: #666;
+    line-height: 2;
+}
+
+.heading {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    color: black;
+    text-transform: capitalize;
+    padding-left: 1rem;
+
+}
+
+.reviews .slide p::before {
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 2rem;
+    height: 2rem;
+    width: 2rem;
+    background: #eee;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.reviews .slide .user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.reviews .slide .user img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100%;
+
+}
+
+.reviews .slide .user h3 {
+    font-size: 2rem;
+    color: #111;
+    text-transform: capitalize;
+}
+
+.reviews .slide .user .stars {
+    padding-top: .5rem;
+}
+
+.reviews .slide .user .stars i {
+    font-size: 1.4rem;
+    color: #f5bf23;
+}
+
+.social a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.social-hover:hover {
+    color: rgb(93, 93, 93);
+    padding: 5px 100px;
+
+}
+
+/* footer */
+/* .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} */
+
+
+/* payment */
+.payment {
+
+    margin-top: 55px;
+
+}
+
+.order {
+    position: relative;
+    top: 0;
+    left: 360px;
+}
+
+/* course */
+.cimg {
+    width: 10%;
+    height: 35vh;
+    object-fit: cover;
+}

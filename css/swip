@@ -1,0 +1,53 @@
+.swiper {
+    width: 89%;
+    height: 83%;
+    margin: 0 30px 7px 30px;
+
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 16px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    display: none;
+}
+
+.student-name {
+    color: red;
+}
+
+.student-profession {
+    font-weight: bold;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial .pic img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 13px auto;
+}
